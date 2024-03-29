@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: black;
+  background-image: url("unsplash_new.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  animation: myAnim 10s ease 0s 1 normal forwards;
+ }
+
+@keyframes myAnim {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+
+  }
+
+  100% {
+    background-position: center middle;
+    background-size: 130%;
+
+  }
+}
+
+.col-sm-4{
+  color: #fff;
+  font-family: Times New Roman;
+  font-size: 12px;
+
+
+
+a {
+  text-decoration: underline;
+  color: #fff;
+}
